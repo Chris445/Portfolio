@@ -17,7 +17,8 @@ body {
   background: #ffffff;
 }
 
-figure {
+figure,
+figcaption {
   margin: 0;
   }
 
@@ -30,6 +31,7 @@ img {
   }
 
 #banner-hero {
+  max-height: 120%;
   position: relative;
   }
 
@@ -51,9 +53,15 @@ img {
   padding-left: 0;
   }
 
+
+
 #nav li {
   margin: .5em 0;
   }
+
+figcaption {
+  /* margin: 3em; */
+}
 
 #nav li a {
   color: #000;
@@ -71,12 +79,37 @@ section.nav {
 }
 
 #about {
+  margin: 1em;
+  max-width: 40%;
+  min-width: 100%;
+
+  }
+
+#about {
 margin-top: 8em;
+
 }
 
 #hero {
   margin-bottom: 4em;
   }
+
+  p {
+    margin-bottom: 5em;
+  }
+
+
+  #fig-1 {
+  margin-left: 3em;
+  margin-top: 15em;
+  }
+
+ #fig-2 {
+  margin-left: 3em;
+  margin-top: 15em;
+  }
+
+
 
 @media (min-width: 48em) {
 
@@ -86,12 +119,24 @@ margin-top: 8em;
   }
 
 #fig-1 {
-  margin-left: 24em;
+
 }
 
 #fig-2 {
-  margin-left: 24em;
+
 }
+
+figure {
+  overflow: hidden;
+  }
+
+figure img {
+  float: left;
+  }
+
+figure figcaption {
+  margin-left: 50%;
+  }
 
 
 

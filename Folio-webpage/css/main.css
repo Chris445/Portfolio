@@ -14,7 +14,7 @@ body {
   max-width: 70em;
   margin: 1em auto;
   color:#000033;
-  background: #ffffff;
+  scroll-behavior: smooth;
 }
 
 figure,
@@ -87,6 +87,8 @@ section.nav {
 
 #about {
 margin-top: 8em;
+margin-top: 8em;
+
 
 }
 
@@ -94,29 +96,140 @@ margin-top: 8em;
   margin-bottom: 4em;
   }
 
+/*
+#3dwork  {
+  background: #000000;
+ */
+}
+
+/* LINE */
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
   p {
     margin-bottom: 5em;
   }
 
-
+/* IMAGES */
   #fig-1 {
-  margin-left: 3em;
+  margin-left: 0em;
   margin-top: 15em;
   }
 
  #fig-2 {
-  margin-left: 3em;
+  margin-left: 0em;
   margin-top: 15em;
   }
 
+/* HEADSHOT */
+  figure figcaption {
+  margin-top: 7%;
+  }
+
+/*
+#side-images {
+  float: left;
+  size: 50%;
+} */
 
 
+
+
+figure.headshot {
+  display: block;
+  width: 7.5em;
+  height: 7.5em;
+  border: .5em solid #eee;
+  border-radius: 50%;
+  margin: .25em auto .75em;
+  overflow: hidden;
+}
+
+
+figure.headshot  {
+  float: left;
+  margin-top: 4em;
+  margin-right: 0.7em;
+  margin-bottom: -0.1em;
+}
+
+/*
+#about {
+  display: block;
+  background-color:#eee;
+}
+ */
+
+
+@media (min-width: 160em) {
+
+
+#L-side1 {
+margin-top: 17em;
+margin-right: -20em;
+margin-left: 5em;
+
+}
+
+#fig--1 {
+
+ position: absolute;
+ margin-top: 2em;
+ margin-left: 60em;
+}
+
+#r-side1 {
+  margin-left: 2em;
+
+}
+
+#fig-0 {
+  position: absolute;
+  margin-left: -40em;
+}
+#side-hr {
+  display:none;
+}
+
+
+
+
+}
 @media (min-width: 48em) {
+
+/*
+#L-side1 {
+ position: relative;
+margin-top: 17em;
+margin-right: -20em;
+margin-left: 5em;
+
+}
+
+
+#fig-0 {
+  position: absolute;
+  margin-left: -40em;
+}
+ */
+
 
 #nav li {
   display: inline;
   margin-right: 1em;
   }
+
+
+
 
 #fig-1 {
 
